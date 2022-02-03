@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h2 {
+  @apply text-2xl font-extrabold text-gray-800;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-800;
+}
+
+h6 {
+  @apply font-bold;
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-6;
+}
+
+.included-container {
+  @apply mt-3;
+}
